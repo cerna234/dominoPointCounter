@@ -26,7 +26,7 @@ function update(){
     number = number + 1;
     console.log(number);
 
-    document.getElementById('blank_image').src="images/canvas" + number + ".jpg";
+    document.getElementById('blank_image').src="canvas" + number + ".jpg";
     
     p1Score = p1Score + 5;
     console.log(p1Score);
@@ -95,7 +95,7 @@ function updateMinus(){
 
     p1Score = p1Score -5 ;
 
-    document.getElementById('blank_image').src="images/canvas" + number + ".jpg";
+    document.getElementById('blank_image').src="canvas" + number + ".jpg";
 
     document.getElementById("p1score").innerHTML = p1Score;
     
@@ -151,7 +151,7 @@ function update2(){
     number2 = number2 + 1;
     console.log(number2);
 
-    document.getElementById('blank_image2').src="images/canvas" + number2 + ".jpg";
+    document.getElementById('blank_image2').src="canvas" + number2 + ".jpg";
     
     p2Score = p2Score + 5;
     console.log(p2Score);
@@ -210,7 +210,7 @@ function updateMinus2(){
     p2Score = p2Score -5;
 
     
-    document.getElementById('blank_image2').src="images/canvas" + number2 + ".jpg";
+    document.getElementById('blank_image2').src="canvas" + number2 + ".jpg";
 
     document.getElementById("p2score").innerHTML = p2Score;
 
@@ -256,7 +256,7 @@ function updatethree(){
     number3 = number3 + 1;
     console.log(number3);
 
-    document.getElementById('blank_image3').src="images/canvas" + number3 + ".jpg";
+    document.getElementById('blank_image3').src="canvas" + number3 + ".jpg";
     
     p3Score = p3Score + 5;
     console.log(p3Score);
@@ -321,7 +321,7 @@ function updateMinusthree(){
     console.log(number3);
 
     p3Score = p3Score -5;
-    document.getElementById('blank_image3').src="images/canvas" + number3 + ".jpg";
+    document.getElementById('blank_image3').src="canvas" + number3 + ".jpg";
 
     document.getElementById("p3score").innerHTML = p3Score;
 
