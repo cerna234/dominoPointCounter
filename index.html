@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominoes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="domino.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+   
+    
+
+    </head>
+    <body>
+
+
+   
+   
+   
+ <div id="container">
+
+ 
+        <div class="player-names">
+            <p id="p1name">Player 1</p>
+            <p id="p2name">Player 2</p>
+            <p id="p3name">Player 3</p>
+          
+    
+        </div>
+
+        <div class="score">
+            <p id="p1score">0</p>
+            <p id="p2score">0</p>
+            <p id="p3score">0</p>
+        </div>
+       
+
+       
+        
+
+        <div class="score-container">
+            
+            <img id="blank_image" src="images/canvas0.jpg">
+            
+            </img>
+
+
+           
+            <img id="blank_image2" src="images/canvas0.jpg">
+           
+            </img>
+
+
+            <img id="blank_image3" src="images/canvas0.jpg">
+           
+            </img>
+            
+        </div>
+
+        <div class="button-container">
+            
+            <button id="add-button" onclick="update()">add 5</button>
+            <button id="delete-button" onclick="updateMinus()">minus 5</button>
+
+            
+           
+            <button id="add-button" onclick="update2()">add 5</button>
+            <button id="delete-button" onclick="updateMinus2()">minus 5</button>
+
+    
+
+            <button id="add-button" onclick="updatethree()">add 5</button>
+            <button id="delete-button" onclick="updateMinusthree()">minus 5</button>
+
+            
+        </div>
+
+
+
+       
+
+
+
+        <div class="input-names">
+            <input placeholder="name 1" id="name-input1">
+            <input placeholder="name 2" id="name-input2">
+            <input placeholder="name 3" id="name-input3">
+           
+        </div>
+
+        <button class="submit" onclick="submit()">Submit</button>
+        
+        
+        
+</div>  
+
+<div class="winner">
+
+</div>
+   
+       
+    
+<h2 id="winner-name">The Winner is player</h2>
+
+<input disabled type="button" id="bt" value="Save data to file" onclick="saveFile()" />
+
+<button id="reload-page" onClick="window.location.reload();"  disabled >Restart game  </button>
+
+
+
+
+
+
+
+
+    
+    
+
+        <script src="main.js">
+            
+        </script>
+
+<script src="main2.js">
+            
+</script>
+
+    </body>
+    </html>
+</body>
+</html>
+
+
