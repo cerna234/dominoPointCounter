@@ -1,0 +1,339 @@
+
+
+
+body{
+    background-image: url("dominoback.jpg");
+    background-size: cover;
+}
+#blank_image{
+    width: 20%;
+    height: 20%;
+    background-color: rgba(255, 255, 0, 0);
+    background-image: url("blank.jpg");
+    background-repeat: no-repeat;
+    border: 6px solid rgb(68, 68, 68);
+    
+}
+.score-container{
+   display: flex;
+   justify-content: space-evenly;
+}
+.button-container{
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+
+#blank_image2{
+    width: 20%;
+    height: 20%;
+    background-color: rgba(255, 255, 0, 0);
+    background-image: url("blank.jpg");
+    background-repeat: no-repeat;
+    background-color: yellow;
+    border: 6px solid rgb(68, 68, 68);
+    
+    
+}
+
+#blank_image3{
+    width: 20%;
+    height: 20%;
+    background-color: rgba(255, 255, 0, 0);
+    background-image: url("blank.jpg");
+    background-repeat: no-repeat;
+    background-color: yellow;
+    border: 6px solid rgb(68, 68, 68);
+    
+    
+}
+
+
+.score-container2{
+    display: flex;
+    
+    
+}
+.game-container{
+    display: flex;
+    
+    
+}
+
+.player-names{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(43, 43, 43);
+    font-size: 200px;
+    
+}
+#p1name{
+    position: relative;
+    right: 4%;
+}
+#p1score{
+    position: relative;
+    right: 5%;
+}
+
+
+#p3name{
+    position: relative;
+    left: 4%;
+}
+#p3score{
+    position: relative;
+    left: 5%;
+}
+.score{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(41, 41, 41);
+}
+.input-names{
+   display: flex;
+   flex-direction: column;
+   width: 10%;
+   position: relative;
+   left: 45%;
+   top: 45px;
+}
+p{
+    font-size: 30px;
+}
+
+#add-button{
+    background-color: rgb(75, 185, 75);
+    color: white;
+    text-shadow: 2px 2px 2px rgb(128, 128, 128);
+    border-radius: 20px;
+    position: relative;
+    left: 3%;
+    top: 20px;
+    font-size: 20px;
+}
+
+#delete-button{
+    background-color: red;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(128, 128, 128);
+    border-radius: 20px;
+    position: relative;
+    right: 3%;
+    top: 20px;
+    font-size: 20px;
+    
+}
+
+.submit{
+    position: relative;
+    left: 48%;
+    top: 45px;
+}
+
+#winner-name{
+    font-size: 50px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    opacity: 0%;
+    color: red;
+    text-shadow: 2px 2px 2px black;
+    
+
+
+}
+
+#bt{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    left: 45%;
+    opacity: 0%;
+    bottom: 20%;
+
+}
+
+
+#reload-page{
+    background-color: rgb(75, 185, 75);
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px rgb(128, 128, 128);
+    left: 35%;
+    bottom: 300px;
+    position: relative;
+    opacity: 0%;
+}
+
+
+@media only screen and (max-width: 800px){
+
+
+    body{
+        background-image: url("dominoback.jpg");
+        background-size: cover;
+    }
+    #blank_image{
+        width: 20%;
+        height: 20%;
+        background-color: rgba(255, 255, 0, 0);
+        background-image: url("blank.jpg");
+        background-repeat: no-repeat;
+        border: 6px solid rgb(68, 68, 68);
+        
+    }
+    .score-container{
+       display: flex;
+       justify-content: space-evenly;
+    }
+    .button-container{
+       display: flex;
+       justify-content: space-evenly;
+       
+    }
+    
+    #blank_image2{
+        width: 20%;
+        height: 20%;
+        background-color: rgba(255, 255, 0, 0);
+        background-image: url("blank.jpg");
+        background-repeat: no-repeat;
+        background-color: yellow;
+        border: 6px solid rgb(68, 68, 68);
+        
+        
+    }
+    
+    #blank_image3{
+        width: 20%;
+        height: 20%;
+        background-color: rgba(255, 255, 0, 0);
+        background-image: url("blank.jpg");
+        background-repeat: no-repeat;
+        background-color: yellow;
+        border: 6px solid rgb(68, 68, 68);
+        
+        
+    }
+    
+    
+    .score-container2{
+        display: flex;
+        
+        
+    }
+    .game-container{
+        display: flex;
+        
+        
+    }
+    
+    .player-names{
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        text-shadow: 2px 2px 2px rgb(43, 43, 43);
+        font-size: 200px;
+        
+    }
+    #p1name{
+        position: relative;
+        right: 4%;
+    }
+    #p1score{
+        position: relative;
+        right: 5%;
+    }
+    
+    
+    #p3name{
+        position: relative;
+        left: 4%;
+    }
+    #p3score{
+        position: relative;
+        left: 5%;
+    }
+    .score{
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        text-shadow: 2px 2px 2px rgb(41, 41, 41);
+    }
+    .input-names{
+       display: flex;
+       flex-direction: column;
+       width: 10%;
+       position: relative;
+       left: 45%;
+       top: 60px;
+    }
+    p{
+        font-size: 30px;
+    }
+    
+    #add-button{
+        background-color: rgb(75, 185, 75);
+        color: white;
+        font-size: 15px;
+        text-shadow: 2px 2px 2px rgb(128, 128, 128);
+        border-radius: 20px;
+        position: relative;
+        left: 8.5%;
+        top: 20px;
+    }
+    
+    #delete-button{
+        background-color: red;
+        color: white;
+        font-size: 15px;
+        text-shadow: 2px 2px 2px rgb(128, 128, 128);
+        border-radius: 20px;
+        position: relative;
+        right: 7%;
+        top: 45px;
+        
+    }
+    
+    .submit{
+        position: relative;
+        left: 45%;
+        top: 80px;
+    }
+    
+    #winner-name{
+        font-size: 50px;
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        opacity: 0%;
+        color: red;
+        text-shadow: 2px 2px 2px black;
+        
+    
+    
+    }
+    
+    
+    #reload-page{
+        background-color: rgb(75, 185, 75);
+        color: white;
+        font-size: 45px;
+        text-shadow: 2px 2px 2px rgb(128, 128, 128);
+        left: 35%;
+        bottom: 300px;
+        position: relative;
+        opacity: 0%;
+    }
+
+
+
+
+
+}
+
+
+
